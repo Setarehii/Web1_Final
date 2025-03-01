@@ -1,0 +1,248 @@
+.book-list-container {
+  padding: 20px;
+}
+
+.search-filter-container {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.search-input, .filter-select {
+  padding: 10px;
+  margin-right: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 200px;
+}
+
+.search-button, .clear-button {
+  padding: 5px 15px;
+  margin-right: 10px;
+  background-color: #0056b3;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.search-button:hover {
+  background-color: #003c73;
+}
+
+.book-list {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.book-card {
+  background: white;
+  padding: 15px;
+  margin: 10px;
+  width: calc(33.333% - 20px);
+  box-sizing: border-box;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.book-card img {
+  max-width: 100px;
+  margin-bottom: 10px;
+}
+
+.book-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.book-info > div {
+  margin-bottom: 10px;
+}
+
+.like-dislike button {
+  padding: 5px 10px;
+  margin-right: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  width: auto;
+}
+
+.favorite-button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: #ff7f50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.favorite-button:hover {
+  background-color: #e66b43;
+}
+
+.note-input {
+  width: 96%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  height: 100px;
+}
+
+.navbar .logo {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+
+.navbar li {
+  margin-left: 20px;
+  margin-right: 60px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.book-list-container {
+  margin-top: 80px;
+}
+
+.search-filter-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.search-input, .filter-select, .search-button {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.search-button, .clear-button {
+  background-color: #006bb3;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.search-button:hover, .clear-button {
+  background-color: #005b99;
+}
+
+.book-list {
+  margin-top: 20px;
+}
+
+.book-card {
+  background-color: #f4f4f4;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.book-title {
+  font-size: 24px;
+  margin: 0;
+}
+
+.book-author, .book-genre, .book-rating, .book-description {
+  font-size: 16px;
+}
+
+.like-dislike {
+  margin-top: 10px;
+}
+
+.favorite-button, .like-button, .dislike-button {
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #006bb3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.favorite-button:hover, .like-button:hover, .dislike-button:hover {
+  background-color: #005b99;
+}
+
+.note-input {
+  margin-top: 10px;
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #006bb3;
+  padding: 10px 20px;
+  color: white;
+}
+
+.navbar .logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar ul li {
+  font-size: 18px;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  transition: background-color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+  background-color: #005b99;
+  border-radius: 5px;
+}

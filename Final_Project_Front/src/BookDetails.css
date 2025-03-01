@@ -1,0 +1,53 @@
+.book-details {
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .rating button {
+    margin: 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #0056b3;
+    color: white;
+  }
+  
+  .rating button:hover {
+    background-color: #003c73;
+  }
+  
+  .comments {
+    margin-top: 20px;
+  }
+  
+  .comments input {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .favorite-btn {
+    margin-top: 15px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #ff4081;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .favorite-btn:hover {
+    background-color: #c60055;
+  }
+  
